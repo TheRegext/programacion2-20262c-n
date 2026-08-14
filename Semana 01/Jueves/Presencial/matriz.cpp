@@ -48,12 +48,43 @@ void informeVentas(int matriz[3][4]){
     }
 }
 
+void informeProductosNoVendidos(int matriz[3][4]){
+    bool huboVenta;
+    //int cantVentasProducto;
+    int cantProductosSinVentas = 0, i, j;
+
+    for(j=0; j<4; j++){
+        huboVenta = false;
+        //cantVentasProducto = 0;
+
+        for(i=0; i<3; i++){
+            if (matriz[i][j] > 0){
+                huboVenta = true;
+                //cantVentasProducto++;
+            }
+        }
+
+        if (!huboVenta){
+            cantProductosSinVentas++;
+        }
+
+        /*if (cantVentasProducto == 0){
+            cantProductosSinVentas++;
+        }*/
+
+    }
+
+    cout << "Cantidad de productos sin ventas: " << cantProductosSinVentas << endl;
+
+}
+
 int main(){
     int matriz[3][4] = {};
 
     cargarVentas(matriz);
     informeVentas(matriz);
-    // Agregar cuántos productos no se vendieron en ninguna sucursal.
+    informeProductosNoVendidos(matriz);
+
 
     return 0;
 }
