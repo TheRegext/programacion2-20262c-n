@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1787102731 source:c:\users\vero\onedrive\utn\jtp\2026-2c\prog 2\programacion2-20262c-n\semana 02\martes\alumnos-materias\funciones.cpp
+	<iostream>
+	<cstring>
+	"funciones.h"
+
+1787102389 source:c:\users\vero\onedrive\utn\jtp\2026-2c\prog 2\programacion2-20262c-n\semana 02\martes\alumnos-materias\main.cpp
+	<iostream>
+	"funciones.h"
+
+1787097182 c:\users\vero\onedrive\utn\jtp\2026-2c\prog 2\programacion2-20262c-n\semana 02\martes\alumnos-materias\funciones.h
+
