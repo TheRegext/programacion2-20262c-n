@@ -1,42 +1,34 @@
 #include <iostream>
+#include "personaje.h"
 
 using namespace std;
 
-/**
-  PascalCase
+/***
+  Hacer que el personaje tenga una defensa... 
+  Ahora cuando le hacen da¤o, la defensa proboca que sea menor el da¤o
 */
-class Personaje{
-private:
-  int _vida;
-  int _fuerza;
-  
-public:
-  /// getter setter
-  int getVida(){
-    return _vida;
-  }
-  
-  void setVida(int vida){
-    _vida = vida;
-  }
-  
-  int getFuerza(){
-    return _fuerza;
-  }
-  
-  void setFuerza(int fuerza){
-    _fuerza = fuerza;  
-  }  
-};
 
 int main()
 {
-  Personaje pj;
+  Personaje pj, en(50, 15);
   
+  /// pj.setVida(1000);
+  /*
   pj.setVida(100);
   pj.setFuerza(30);
-    
+  
+  en.setVida(100);
+  en.setFuerza(30);
+    */
   cout << "La vida del personaje es: " << pj.getVida() << endl;
+  
+  for(int i=0; i<10; i++){
+    cout << "Atacan al personaje!" << endl;
+    en.atacar(pj); 
+    pj.atacar(en);
+    cout << "La vida del personaje es: " << pj.getVida() << endl;  
+  }
+  
   
   return 0;
 }
