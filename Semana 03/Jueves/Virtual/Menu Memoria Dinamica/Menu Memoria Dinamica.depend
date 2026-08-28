@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1787876532 source:e:\code\utn\programacion2-20262c-n\semana 03\jueves\virtual\menu memoria dinamica\menu.cpp
+	<iostream>
+	"menu.h"
+
+1787878380 e:\code\utn\programacion2-20262c-n\semana 03\jueves\virtual\menu memoria dinamica\menu.h
+	<string>
+
+1787878370 source:e:\code\utn\programacion2-20262c-n\semana 03\jueves\virtual\menu memoria dinamica\main.cpp
+	<iostream>
+	"gestorGastos.h"
+
+1787878328 source:e:\code\utn\programacion2-20262c-n\semana 03\jueves\virtual\menu memoria dinamica\gestorgastos.cpp
+	<iostream>
+	"gestorGastos.h"
+
+1787879097 e:\code\utn\programacion2-20262c-n\semana 03\jueves\virtual\menu memoria dinamica\gestorgastos.h
+	"menu.h"
+
