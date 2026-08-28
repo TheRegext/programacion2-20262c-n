@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1787835494 source:c:\users\vero\onedrive\utn\jtp\2026-2c\prog 2\programacion2-20262c-m\semana 03\martes\trabajoclase2508\libro.cpp
+	<iostream>
+	"libro.h"
+
+1787835511 source:c:\users\vero\onedrive\utn\jtp\2026-2c\prog 2\programacion2-20262c-m\semana 03\martes\trabajoclase2508\main.cpp
+	<iostream>
+	"socio.h"
+	"libro.h"
+	"prestamo.h"
+
+1787835478 source:c:\users\vero\onedrive\utn\jtp\2026-2c\prog 2\programacion2-20262c-m\semana 03\martes\trabajoclase2508\prestamo.cpp
+	<iostream>
+	"prestamo.h"
+
+1787835444 source:c:\users\vero\onedrive\utn\jtp\2026-2c\prog 2\programacion2-20262c-m\semana 03\martes\trabajoclase2508\socio.cpp
+	<iostream>
+	"socio.h"
+
+1787835429 source:c:\users\vero\onedrive\utn\jtp\2026-2c\prog 2\programacion2-20262c-m\semana 03\martes\trabajoclase2508\fecha.cpp
+	<iostream>
+	"fecha.h"
+
+1787835388 c:\users\vero\onedrive\utn\jtp\2026-2c\prog 2\programacion2-20262c-m\semana 03\martes\trabajoclase2508\fecha.h
+
+1787835493 c:\users\vero\onedrive\utn\jtp\2026-2c\prog 2\programacion2-20262c-m\semana 03\martes\trabajoclase2508\libro.h
+	"fecha.h"
+	<string>
+
+1787835373 c:\users\vero\onedrive\utn\jtp\2026-2c\prog 2\programacion2-20262c-m\semana 03\martes\trabajoclase2508\prestamo.h
+	"fecha.h"
+
+1787835453 c:\users\vero\onedrive\utn\jtp\2026-2c\prog 2\programacion2-20262c-m\semana 03\martes\trabajoclase2508\socio.h
+	"fecha.h"
+

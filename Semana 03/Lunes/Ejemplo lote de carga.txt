@@ -1,0 +1,28 @@
+12345
+Armando Esteban Quito
+12345678
+3
+3
+1989
+Calle falsa 123
+12346
+Juan Manuel Fernandez
+99999999
+12
+12
+2002
+Calle falsa 123
+13337
+Susana Oria
+12121212
+1
+1
+1900
+Calle otra 321
+14000
+Maria Ada
+32323232
+14
+4
+2000
+Otra calle 120
