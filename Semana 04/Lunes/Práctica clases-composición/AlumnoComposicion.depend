@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1788216446 source:c:\users\profesor\desktop\alumnocomposicion\alumno.cpp
+	<iostream>
+	<string>
+	"Alumno.h"
+
+1788216656 c:\users\profesor\desktop\alumnocomposicion\alumno.h
+	"Fecha.h"
+	"Domicilio.h"
+	<string>
+
+1788211321 c:\users\profesor\desktop\alumnocomposicion\fecha.h
+	<string>
+
+1788211321 source:c:\users\profesor\desktop\alumnocomposicion\fecha.cpp
+	"Fecha.h"
+	<string>
+
+1788216638 source:c:\users\profesor\desktop\alumnocomposicion\domicilio.cpp
+	<iostream>
+	"Domicilio.h"
+
+1788216681 c:\users\profesor\desktop\alumnocomposicion\domicilio.h
+	<string>
+
