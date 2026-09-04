@@ -1,7 +1,25 @@
 # depslib dependency file v1.0
-1788473977 source:e:\code\utn\programacion2-20262c-n\semana 04\jueves\virtual\poo\main.cpp
+1788484328 source:e:\code\utn\programacion2-20262c-n\semana 04\jueves\virtual\poo\main.cpp
+	<iostream>
+	"tienda.h"
+	"tiendaRopa.h"
+
+1788484155 e:\code\utn\programacion2-20262c-n\semana 04\jueves\virtual\poo\tienda.h
+	"articulos.h"
+
+1788482034 source:e:\code\utn\programacion2-20262c-n\semana 04\jueves\virtual\poo\articulos.cpp
+	"articulos.h"
+
+1788482020 e:\code\utn\programacion2-20262c-n\semana 04\jueves\virtual\poo\articulos.h
+	<string>
+
+1788481927 source:e:\code\utn\programacion2-20262c-n\semana 04\jueves\virtual\poo\tienda.cpp
 	<iostream>
 	"tienda.h"
 
-1788475372 e:\code\utn\programacion2-20262c-n\semana 04\jueves\virtual\poo\tienda.h
+1788484270 source:e:\code\utn\programacion2-20262c-n\semana 04\jueves\virtual\poo\tiendaropa.cpp
+	"TiendaRopa.h"
+
+1788484917 e:\code\utn\programacion2-20262c-n\semana 04\jueves\virtual\poo\tiendaropa.h
+	"tienda.h"
 
