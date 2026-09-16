@@ -1,0 +1,81 @@
+# depslib dependency file v1.0
+1787835494 source:c:\users\vero\onedrive\utn\jtp\2026-2c\prog 2\programacion2-20262c-m\semana 03\martes\trabajoclase2508\libro.cpp
+	<iostream>
+	"libro.h"
+
+1787835511 source:c:\users\vero\onedrive\utn\jtp\2026-2c\prog 2\programacion2-20262c-m\semana 03\martes\trabajoclase2508\main.cpp
+	<iostream>
+	"socio.h"
+	"libro.h"
+	"prestamo.h"
+
+1787835478 source:c:\users\vero\onedrive\utn\jtp\2026-2c\prog 2\programacion2-20262c-m\semana 03\martes\trabajoclase2508\prestamo.cpp
+	<iostream>
+	"prestamo.h"
+
+1787835444 source:c:\users\vero\onedrive\utn\jtp\2026-2c\prog 2\programacion2-20262c-m\semana 03\martes\trabajoclase2508\socio.cpp
+	<iostream>
+	"socio.h"
+
+1787835429 source:c:\users\vero\onedrive\utn\jtp\2026-2c\prog 2\programacion2-20262c-m\semana 03\martes\trabajoclase2508\fecha.cpp
+	<iostream>
+	"fecha.h"
+
+1787835388 c:\users\vero\onedrive\utn\jtp\2026-2c\prog 2\programacion2-20262c-m\semana 03\martes\trabajoclase2508\fecha.h
+
+1787835493 c:\users\vero\onedrive\utn\jtp\2026-2c\prog 2\programacion2-20262c-m\semana 03\martes\trabajoclase2508\libro.h
+	"fecha.h"
+	<string>
+
+1787835373 c:\users\vero\onedrive\utn\jtp\2026-2c\prog 2\programacion2-20262c-m\semana 03\martes\trabajoclase2508\prestamo.h
+	"fecha.h"
+
+1787835453 c:\users\vero\onedrive\utn\jtp\2026-2c\prog 2\programacion2-20262c-m\semana 03\martes\trabajoclase2508\socio.h
+	"fecha.h"
+
+1788265073 source:c:\users\danie\onedrive\documentos\pr2 2026\martes c2\01-09\trabajoclase2508\fecha.cpp
+	<iostream>
+	"fecha.h"
+
+1788265101 c:\users\danie\onedrive\documentos\pr2 2026\martes c2\01-09\trabajoclase2508\fecha.h
+
+1788296328 source:c:\users\danie\onedrive\documentos\pr2 2026\martes c2\01-09\trabajoclase2508\libro.cpp
+	<iostream>
+	"libro.h"
+
+1787835493 c:\users\danie\onedrive\documentos\pr2 2026\martes c2\01-09\trabajoclase2508\libro.h
+	"fecha.h"
+	<string>
+
+1788297277 source:c:\users\danie\onedrive\documentos\pr2 2026\martes c2\01-09\trabajoclase2508\main.cpp
+	<iostream>
+	<cstring>
+	"socio.h"
+	"libro.h"
+	"prestamo.h"
+	"funcionesGlobales.h"
+
+1788264391 c:\users\danie\onedrive\documentos\pr2 2026\martes c2\01-09\trabajoclase2508\socio.h
+	"fecha.h"
+
+1788294681 c:\users\danie\onedrive\documentos\pr2 2026\martes c2\01-09\trabajoclase2508\prestamo.h
+	"fecha.h"
+
+1788296573 source:c:\users\danie\onedrive\documentos\pr2 2026\martes c2\01-09\trabajoclase2508\prestamo.cpp
+	<iostream>
+	"prestamo.h"
+
+1788296428 source:c:\users\danie\onedrive\documentos\pr2 2026\martes c2\01-09\trabajoclase2508\socio.cpp
+	<iostream>
+	"socio.h"
+
+1788295664 c:\users\danie\onedrive\documentos\pr2 2026\martes c2\01-09\trabajoclase2508\funcionesglobales.h
+
+1788297153 source:c:\users\danie\onedrive\documentos\pr2 2026\martes c2\01-09\trabajoclase2508\funcionesglobales.cpp
+	<iostream>
+	<cstring>
+	"socio.h"
+	"libro.h"
+	"prestamo.h"
+	"funcionesGlobales.h"
+
