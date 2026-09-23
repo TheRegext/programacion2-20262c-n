@@ -1,0 +1,302 @@
+# depslib dependency file v1.0
+1787835494 source:c:\users\vero\onedrive\utn\jtp\2026-2c\prog 2\programacion2-20262c-m\semana 03\martes\trabajoclase2508\libro.cpp
+	<iostream>
+	"libro.h"
+
+1787835511 source:c:\users\vero\onedrive\utn\jtp\2026-2c\prog 2\programacion2-20262c-m\semana 03\martes\trabajoclase2508\main.cpp
+	<iostream>
+	"socio.h"
+	"libro.h"
+	"prestamo.h"
+
+1787835478 source:c:\users\vero\onedrive\utn\jtp\2026-2c\prog 2\programacion2-20262c-m\semana 03\martes\trabajoclase2508\prestamo.cpp
+	<iostream>
+	"prestamo.h"
+
+1787835444 source:c:\users\vero\onedrive\utn\jtp\2026-2c\prog 2\programacion2-20262c-m\semana 03\martes\trabajoclase2508\socio.cpp
+	<iostream>
+	"socio.h"
+
+1787835429 source:c:\users\vero\onedrive\utn\jtp\2026-2c\prog 2\programacion2-20262c-m\semana 03\martes\trabajoclase2508\fecha.cpp
+	<iostream>
+	"fecha.h"
+
+1787835388 c:\users\vero\onedrive\utn\jtp\2026-2c\prog 2\programacion2-20262c-m\semana 03\martes\trabajoclase2508\fecha.h
+
+1787835493 c:\users\vero\onedrive\utn\jtp\2026-2c\prog 2\programacion2-20262c-m\semana 03\martes\trabajoclase2508\libro.h
+	"fecha.h"
+	<string>
+
+1787835373 c:\users\vero\onedrive\utn\jtp\2026-2c\prog 2\programacion2-20262c-m\semana 03\martes\trabajoclase2508\prestamo.h
+	"fecha.h"
+
+1787835453 c:\users\vero\onedrive\utn\jtp\2026-2c\prog 2\programacion2-20262c-m\semana 03\martes\trabajoclase2508\socio.h
+	"fecha.h"
+
+1788265073 source:c:\users\danie\onedrive\documentos\pr2 2026\martes c2\01-09\trabajoclase2508\fecha.cpp
+	<iostream>
+	"fecha.h"
+
+1788265101 c:\users\danie\onedrive\documentos\pr2 2026\martes c2\01-09\trabajoclase2508\fecha.h
+
+1788296328 source:c:\users\danie\onedrive\documentos\pr2 2026\martes c2\01-09\trabajoclase2508\libro.cpp
+	<iostream>
+	"libro.h"
+
+1787835493 c:\users\danie\onedrive\documentos\pr2 2026\martes c2\01-09\trabajoclase2508\libro.h
+	"fecha.h"
+	<string>
+
+1788297277 source:c:\users\danie\onedrive\documentos\pr2 2026\martes c2\01-09\trabajoclase2508\main.cpp
+	<iostream>
+	<cstring>
+	"socio.h"
+	"libro.h"
+	"prestamo.h"
+	"funcionesGlobales.h"
+
+1788264391 c:\users\danie\onedrive\documentos\pr2 2026\martes c2\01-09\trabajoclase2508\socio.h
+	"fecha.h"
+
+1788294681 c:\users\danie\onedrive\documentos\pr2 2026\martes c2\01-09\trabajoclase2508\prestamo.h
+	"fecha.h"
+
+1788296573 source:c:\users\danie\onedrive\documentos\pr2 2026\martes c2\01-09\trabajoclase2508\prestamo.cpp
+	<iostream>
+	"prestamo.h"
+
+1788296428 source:c:\users\danie\onedrive\documentos\pr2 2026\martes c2\01-09\trabajoclase2508\socio.cpp
+	<iostream>
+	"socio.h"
+
+1788295664 c:\users\danie\onedrive\documentos\pr2 2026\martes c2\01-09\trabajoclase2508\funcionesglobales.h
+
+1788297153 source:c:\users\danie\onedrive\documentos\pr2 2026\martes c2\01-09\trabajoclase2508\funcionesglobales.cpp
+	<iostream>
+	<cstring>
+	"socio.h"
+	"libro.h"
+	"prestamo.h"
+	"funcionesGlobales.h"
+
+1788265073 source:c:\users\vero\onedrive\utn\jtp\2026-2c\prog 2\programacion2-20262c-n\semana 04\martes\trabajoclase2508_alumnos\fecha.cpp
+	<iostream>
+	"fecha.h"
+
+1788265101 c:\users\vero\onedrive\utn\jtp\2026-2c\prog 2\programacion2-20262c-n\semana 04\martes\trabajoclase2508_alumnos\fecha.h
+
+1788296328 source:c:\users\vero\onedrive\utn\jtp\2026-2c\prog 2\programacion2-20262c-n\semana 04\martes\trabajoclase2508_alumnos\libro.cpp
+	<iostream>
+	"libro.h"
+
+1787835493 c:\users\vero\onedrive\utn\jtp\2026-2c\prog 2\programacion2-20262c-n\semana 04\martes\trabajoclase2508_alumnos\libro.h
+	"fecha.h"
+	<string>
+
+1788867674 source:c:\users\vero\onedrive\utn\jtp\2026-2c\prog 2\programacion2-20262c-n\semana 04\martes\trabajoclase2508_alumnos\prestamo.cpp
+	<iostream>
+	"prestamo.h"
+
+1788867666 c:\users\vero\onedrive\utn\jtp\2026-2c\prog 2\programacion2-20262c-n\semana 04\martes\trabajoclase2508_alumnos\prestamo.h
+	"fecha.h"
+
+1788296428 source:c:\users\vero\onedrive\utn\jtp\2026-2c\prog 2\programacion2-20262c-n\semana 04\martes\trabajoclase2508_alumnos\socio.cpp
+	<iostream>
+	"socio.h"
+
+1788264391 c:\users\vero\onedrive\utn\jtp\2026-2c\prog 2\programacion2-20262c-n\semana 04\martes\trabajoclase2508_alumnos\socio.h
+	"fecha.h"
+
+1788867013 source:c:\users\vero\onedrive\utn\jtp\2026-2c\prog 2\programacion2-20262c-n\semana 04\martes\trabajoclase2508_alumnos\main.cpp
+	<iostream>
+	<cstring>
+	<cstdlib>
+	<ctime>
+	"socio.h"
+	"libro.h"
+	"prestamo.h"
+	"funcionesGlobales.h"
+
+1788814133 c:\users\vero\onedrive\utn\jtp\2026-2c\prog 2\programacion2-20262c-n\semana 04\martes\trabajoclase2508_alumnos\funcionesglobales.h
+
+1788867351 source:c:\users\vero\onedrive\utn\jtp\2026-2c\prog 2\programacion2-20262c-n\semana 04\martes\trabajoclase2508_alumnos\funcionesglobales.cpp
+	<iostream>
+	<cstring>
+	"socio.h"
+	"libro.h"
+	"prestamo.h"
+	"funcionesGlobales.h"
+
+1789512396 source:c:\users\danie\onedrive\documentos\pr2 2026\martes noche c2\15-09\trabajoclase2508_alumnos\funcionesglobales.cpp
+	<iostream>
+	<cstring>
+	"socio.h"
+	"libro.h"
+	"prestamo.h"
+	"funcionesGlobales.h"
+
+1788264391 c:\users\danie\onedrive\documentos\pr2 2026\martes noche c2\15-09\trabajoclase2508_alumnos\socio.h
+	"fecha.h"
+
+1788265101 c:\users\danie\onedrive\documentos\pr2 2026\martes noche c2\15-09\trabajoclase2508_alumnos\fecha.h
+
+1789514421 c:\users\danie\onedrive\documentos\pr2 2026\martes noche c2\15-09\trabajoclase2508_alumnos\libro.h
+	"fecha.h"
+	<string>
+
+1788867666 c:\users\danie\onedrive\documentos\pr2 2026\martes noche c2\15-09\trabajoclase2508_alumnos\prestamo.h
+	"fecha.h"
+
+1789512396 c:\users\danie\onedrive\documentos\pr2 2026\martes noche c2\15-09\trabajoclase2508_alumnos\funcionesglobales.h
+
+1789515281 source:c:\users\danie\onedrive\documentos\pr2 2026\martes noche c2\15-09\trabajoclase2508_alumnos\main.cpp
+	<iostream>
+	<cstring>
+	<cstdlib>
+	<ctime>
+	"socio.h"
+	"libro.h"
+	"prestamo.h"
+	"funcionesGlobales.h"
+	"archivoLibros.h"
+
+1788867674 source:c:\users\danie\onedrive\documentos\pr2 2026\martes noche c2\15-09\trabajoclase2508_alumnos\prestamo.cpp
+	<iostream>
+	"prestamo.h"
+
+1788296428 source:c:\users\danie\onedrive\documentos\pr2 2026\martes noche c2\15-09\trabajoclase2508_alumnos\socio.cpp
+	<iostream>
+	"socio.h"
+
+1789515357 source:c:\users\danie\onedrive\documentos\pr2 2026\martes noche c2\15-09\trabajoclase2508_alumnos\libro.cpp
+	<iostream>
+	"libro.h"
+	<cstring>
+
+1789512361 source:c:\users\danie\onedrive\documentos\pr2 2026\martes noche c2\15-09\trabajoclase2508_alumnos\fecha.cpp
+	<iostream>
+	"fecha.h"
+
+1789515281 source:c:\users\danie\onedrive\documentos\pr2 2026\martes noche c2\15-09\trabajoclase2508_alumnos\archivolibros.cpp
+	<iostream>
+	"libro.h"
+	"archivoLibros.h"
+
+1789515281 c:\users\danie\onedrive\documentos\pr2 2026\martes noche c2\15-09\trabajoclase2508_alumnos\archivolibros.h
+
+1789512360 source:c:\users\danie\onedrive\documentos\pr2 2026\martes noche c2\22-09\trabajoclase2508_alumnos\fecha.cpp
+	<iostream>
+	"fecha.h"
+
+1788265100 c:\users\danie\onedrive\documentos\pr2 2026\martes noche c2\22-09\trabajoclase2508_alumnos\fecha.h
+
+1789512396 source:c:\users\danie\onedrive\documentos\pr2 2026\martes noche c2\22-09\trabajoclase2508_alumnos\funcionesglobales.cpp
+	<iostream>
+	<cstring>
+	"socio.h"
+	"libro.h"
+	"prestamo.h"
+	"funcionesGlobales.h"
+
+1788264390 c:\users\danie\onedrive\documentos\pr2 2026\martes noche c2\22-09\trabajoclase2508_alumnos\socio.h
+	"fecha.h"
+
+1790114255 c:\users\danie\onedrive\documentos\pr2 2026\martes noche c2\22-09\trabajoclase2508_alumnos\libro.h
+	"fecha.h"
+	<string>
+
+1788867666 c:\users\danie\onedrive\documentos\pr2 2026\martes noche c2\22-09\trabajoclase2508_alumnos\prestamo.h
+	"fecha.h"
+
+1789512396 c:\users\danie\onedrive\documentos\pr2 2026\martes noche c2\22-09\trabajoclase2508_alumnos\funcionesglobales.h
+
+1790118383 source:c:\users\danie\onedrive\documentos\pr2 2026\martes noche c2\22-09\trabajoclase2508_alumnos\main.cpp
+	<iostream>
+	<cstring>
+	<cstdlib>
+	<ctime>
+	"socio.h"
+	"libro.h"
+	"prestamo.h"
+	"funcionesGlobales.h"
+	"archivoLibros.h"
+
+1790118249 c:\users\danie\onedrive\documentos\pr2 2026\martes noche c2\22-09\trabajoclase2508_alumnos\archivolibros.h
+
+1788867674 source:c:\users\danie\onedrive\documentos\pr2 2026\martes noche c2\22-09\trabajoclase2508_alumnos\prestamo.cpp
+	<iostream>
+	"prestamo.h"
+
+1788296428 source:c:\users\danie\onedrive\documentos\pr2 2026\martes noche c2\22-09\trabajoclase2508_alumnos\socio.cpp
+	<iostream>
+	"socio.h"
+
+1790118246 source:c:\users\danie\onedrive\documentos\pr2 2026\martes noche c2\22-09\trabajoclase2508_alumnos\archivolibros.cpp
+	<iostream>
+	<cstring>
+	"libro.h"
+	"archivoLibros.h"
+
+1790115537 source:c:\users\danie\onedrive\documentos\pr2 2026\martes noche c2\22-09\trabajoclase2508_alumnos\libro.cpp
+	<iostream>
+	"libro.h"
+	<cstring>
+
+1790119025 source:c:\users\lisan\onedrive\desktop\libreria\libreriaog\biblioteca_v6\trabajoclase2508_alumnos\fecha.cpp
+	<iostream>
+	"fecha.h"
+
+1790119026 c:\users\lisan\onedrive\desktop\libreria\libreriaog\biblioteca_v6\trabajoclase2508_alumnos\fecha.h
+
+1790119026 source:c:\users\lisan\onedrive\desktop\libreria\libreriaog\biblioteca_v6\trabajoclase2508_alumnos\funcionesglobales.cpp
+	<iostream>
+	<cstring>
+	"socio.h"
+	"libro.h"
+	"prestamo.h"
+	"funcionesGlobales.h"
+
+1790119026 c:\users\lisan\onedrive\desktop\libreria\libreriaog\biblioteca_v6\trabajoclase2508_alumnos\socio.h
+	"fecha.h"
+
+1790119026 c:\users\lisan\onedrive\desktop\libreria\libreriaog\biblioteca_v6\trabajoclase2508_alumnos\libro.h
+	"fecha.h"
+	<string>
+
+1790119026 c:\users\lisan\onedrive\desktop\libreria\libreriaog\biblioteca_v6\trabajoclase2508_alumnos\prestamo.h
+	"fecha.h"
+
+1790119026 c:\users\lisan\onedrive\desktop\libreria\libreriaog\biblioteca_v6\trabajoclase2508_alumnos\funcionesglobales.h
+
+1790122901 source:c:\users\lisan\onedrive\desktop\libreria\libreriaog\biblioteca_v6\trabajoclase2508_alumnos\libro.cpp
+	<iostream>
+	"libro.h"
+	<cstring>
+
+1790119026 source:c:\users\lisan\onedrive\desktop\libreria\libreriaog\biblioteca_v6\trabajoclase2508_alumnos\prestamo.cpp
+	<iostream>
+	"prestamo.h"
+
+1790119026 source:c:\users\lisan\onedrive\desktop\libreria\libreriaog\biblioteca_v6\trabajoclase2508_alumnos\socio.cpp
+	<iostream>
+	"socio.h"
+
+1790123053 source:c:\users\lisan\onedrive\desktop\libreria\libreriaog\biblioteca_v6\trabajoclase2508_alumnos\main.cpp
+	<iostream>
+	<cstring>
+	<cstdlib>
+	<ctime>
+	"socio.h"
+	"libro.h"
+	"prestamo.h"
+	"funcionesGlobales.h"
+	"archivoLibros.h"
+
+1790123608 c:\users\lisan\onedrive\desktop\libreria\libreriaog\biblioteca_v6\trabajoclase2508_alumnos\archivolibros.h
+
+1790123608 source:c:\users\lisan\onedrive\desktop\libreria\libreriaog\biblioteca_v6\trabajoclase2508_alumnos\archivolibros.cpp
+	<iostream>
+	<cstring>
+	"libro.h"
+	"archivoLibros.h"
+
