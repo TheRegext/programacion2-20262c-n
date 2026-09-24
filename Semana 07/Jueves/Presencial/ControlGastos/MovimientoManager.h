@@ -6,8 +6,6 @@
 class MovimientoManager {
 public:
    void NuevoMovimiento();
-   void EditarMovimiento();
-   void EliminarMovimiento();
    void ListarMovimientos();
    void ListarMovimientoXId();
    void ListarMovimientosXTipo();

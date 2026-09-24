@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1789680885 source:/home/angel/UTN/PR2/programacion2-20262c-n/Semana 06/Jueves/Presencial/ControlGastos/Fecha.cpp
+	<string>
+	"Fecha.h"
+
+1789442980 /home/angel/UTN/PR2/programacion2-20262c-n/Semana 06/Jueves/Presencial/ControlGastos/Fecha.h
+	<string>
+
+1789680153 source:/home/angel/UTN/PR2/programacion2-20262c-n/Semana 06/Jueves/Presencial/ControlGastos/Movimiento.cpp
+	<cstring>
+	"Movimiento.h"
+
+1789682947 /home/angel/UTN/PR2/programacion2-20262c-n/Semana 06/Jueves/Presencial/ControlGastos/Movimiento.h
+	<string>
+	"Fecha.h"
+
+1789689096 source:/home/angel/UTN/PR2/programacion2-20262c-n/Semana 06/Jueves/Presencial/ControlGastos/MovimientoMenu.cpp
+	<iostream>
+	"MovimientoMenu.h"
+
+1789688439 /home/angel/UTN/PR2/programacion2-20262c-n/Semana 06/Jueves/Presencial/ControlGastos/MovimientoMenu.h
+	"MovimientoManager.h"
+
+1789442904 /home/angel/UTN/PR2/programacion2-20262c-n/Semana 06/Jueves/Presencial/ControlGastos/MovimientoManager.h
+	<string>
+	"Movimiento.h"
+	"MovimientoArchivo.h"
+
+1789688884 /home/angel/UTN/PR2/programacion2-20262c-n/Semana 06/Jueves/Presencial/ControlGastos/MovimientoArchivo.h
+	"Movimiento.h"
+	<string>
+
+1789688393 source:/home/angel/UTN/PR2/programacion2-20262c-n/Semana 06/Jueves/Presencial/ControlGastos/main.cpp
+	<iostream>
+	"MovimientoMenu.h"
+	"MovimientoManager.h"
+
+1789689027 source:/home/angel/UTN/PR2/programacion2-20262c-n/Semana 06/Jueves/Presencial/ControlGastos/MovimientoArchivo.cpp
+	"MovimientoArchivo.h"
+	<string>
+	<cstdio>
+
+1789688288 source:/home/angel/UTN/PR2/programacion2-20262c-n/Semana 06/Jueves/Presencial/ControlGastos/MovimientoManager.cpp
+	<iostream>
+	<iomanip>
+	"MovimientoManager.h"
+
