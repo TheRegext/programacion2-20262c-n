@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Movimientos" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Movimientos" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Movimientos" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Fecha.cpp" />
+		<Unit filename="Fecha.h" />
+		<Unit filename="FechaHora.cpp" />
+		<Unit filename="FechaHora.h" />
+		<Unit filename="Menu.cpp" />
+		<Unit filename="Menu.h" />
+		<Unit filename="Movimiento.cpp" />
+		<Unit filename="Movimiento.h" />
+		<Unit filename="MovimientoArchivo.cpp" />
+		<Unit filename="MovimientoArchivo.h" />
+		<Unit filename="MovimientoManager.cpp" />
+		<Unit filename="MovimientoManager.h" />
+		<Unit filename="MovimientoMenu.cpp" />
+		<Unit filename="MovimientoMenu.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="utils.cpp" />
+		<Unit filename="utils.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
