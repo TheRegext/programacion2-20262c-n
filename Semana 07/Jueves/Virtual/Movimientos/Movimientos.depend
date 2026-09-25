@@ -1,0 +1,116 @@
+# depslib dependency file v1.0
+1789655942 source:e:\code\utn\programacion2-20262c-n\semana 06\jueves\virtual\movimientos\fecha.cpp
+	"Fecha.h"
+
+1789686025 e:\code\utn\programacion2-20262c-n\semana 06\jueves\virtual\movimientos\fecha.h
+
+1789685995 source:e:\code\utn\programacion2-20262c-n\semana 06\jueves\virtual\movimientos\fechahora.cpp
+	"FechaHora.h"
+
+1789659741 e:\code\utn\programacion2-20262c-n\semana 06\jueves\virtual\movimientos\fechahora.h
+	"Fecha.h"
+
+1789688765 source:e:\code\utn\programacion2-20262c-n\semana 06\jueves\virtual\movimientos\main.cpp
+	<iostream>
+	"MovimientoMenu.h"
+
+1789656524 source:e:\code\utn\programacion2-20262c-n\semana 06\jueves\virtual\movimientos\menu.cpp
+	<iostream>
+	"Menu.h"
+
+1787878380 e:\code\utn\programacion2-20262c-n\semana 06\jueves\virtual\movimientos\menu.h
+	<string>
+
+1789688395 source:e:\code\utn\programacion2-20262c-n\semana 06\jueves\virtual\movimientos\movimiento.cpp
+	<cstring>
+	"Movimiento.h"
+
+1789688233 e:\code\utn\programacion2-20262c-n\semana 06\jueves\virtual\movimientos\movimiento.h
+	<string>
+	"FechaHora.h"
+
+1789692080 source:e:\code\utn\programacion2-20262c-n\semana 06\jueves\virtual\movimientos\movimientomenu.cpp
+	<iostream>
+	"MovimientoMenu.h"
+
+1789691923 e:\code\utn\programacion2-20262c-n\semana 06\jueves\virtual\movimientos\movimientomenu.h
+	"Menu.h"
+	"MovimientoManager.h"
+
+1789691759 e:\code\utn\programacion2-20262c-n\semana 06\jueves\virtual\movimientos\movimientomanager.h
+	"MovimientoArchivo.h"
+
+1789692068 e:\code\utn\programacion2-20262c-n\semana 06\jueves\virtual\movimientos\movimientoarchivo.h
+	"Movimiento.h"
+
+1789691460 source:e:\code\utn\programacion2-20262c-n\semana 06\jueves\virtual\movimientos\movimientoarchivo.cpp
+	<iostream>
+	"MovimientoArchivo.h"
+
+1789692091 source:e:\code\utn\programacion2-20262c-n\semana 06\jueves\virtual\movimientos\movimientomanager.cpp
+	<iostream>
+	"Movimiento.h"
+	"MovimientoManager.h"
+
+1789655942 source:e:\code\utn\programacion2-20262c-n\semana 07\jueves\virtual\movimientos\fecha.cpp
+	"Fecha.h"
+
+1789686025 e:\code\utn\programacion2-20262c-n\semana 07\jueves\virtual\movimientos\fecha.h
+
+1789685995 source:e:\code\utn\programacion2-20262c-n\semana 07\jueves\virtual\movimientos\fechahora.cpp
+	"FechaHora.h"
+
+1789659741 e:\code\utn\programacion2-20262c-n\semana 07\jueves\virtual\movimientos\fechahora.h
+	"Fecha.h"
+
+1789688765 source:e:\code\utn\programacion2-20262c-n\semana 07\jueves\virtual\movimientos\main.cpp
+	<iostream>
+	"MovimientoMenu.h"
+
+1789691923 e:\code\utn\programacion2-20262c-n\semana 07\jueves\virtual\movimientos\movimientomenu.h
+	"Menu.h"
+	"MovimientoManager.h"
+
+1787878380 e:\code\utn\programacion2-20262c-n\semana 07\jueves\virtual\movimientos\menu.h
+	<string>
+
+1790295565 e:\code\utn\programacion2-20262c-n\semana 07\jueves\virtual\movimientos\movimientomanager.h
+	"MovimientoArchivo.h"
+
+1790296690 e:\code\utn\programacion2-20262c-n\semana 07\jueves\virtual\movimientos\movimientoarchivo.h
+	<string>
+	"Movimiento.h"
+
+1790297276 e:\code\utn\programacion2-20262c-n\semana 07\jueves\virtual\movimientos\movimiento.h
+	<string>
+	"FechaHora.h"
+
+1789656524 source:e:\code\utn\programacion2-20262c-n\semana 07\jueves\virtual\movimientos\menu.cpp
+	<iostream>
+	"Menu.h"
+
+1789688395 source:e:\code\utn\programacion2-20262c-n\semana 07\jueves\virtual\movimientos\movimiento.cpp
+	<cstring>
+	"Movimiento.h"
+
+1790296958 source:e:\code\utn\programacion2-20262c-n\semana 07\jueves\virtual\movimientos\movimientoarchivo.cpp
+	<iostream>
+	"MovimientoArchivo.h"
+
+1790296912 source:e:\code\utn\programacion2-20262c-n\semana 07\jueves\virtual\movimientos\movimientomanager.cpp
+	<iostream>
+	"Movimiento.h"
+	"MovimientoManager.h"
+	"utils.h"
+
+1790295531 source:e:\code\utn\programacion2-20262c-n\semana 07\jueves\virtual\movimientos\movimientomenu.cpp
+	<iostream>
+	"MovimientoMenu.h"
+
+1790291296 source:e:\code\utn\programacion2-20262c-n\semana 07\jueves\virtual\movimientos\utils.cpp
+	<iostream>
+	"utils.h"
+
+1790291320 e:\code\utn\programacion2-20262c-n\semana 07\jueves\virtual\movimientos\utils.h
+	<string>
+
