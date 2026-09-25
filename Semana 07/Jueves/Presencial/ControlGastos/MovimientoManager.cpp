@@ -1,6 +1,7 @@
 #include <iostream>
 #include <iomanip>
 #include "MovimientoManager.h"
+#include "colors.hpp"
 
 using namespace std;
 
@@ -36,7 +37,65 @@ Movimiento MovimientoManager::CargarMovimiento(int idMovimiento){
 }
 
 bool MovimientoManager::ExisteId(int idMovimiento){
+}
 
+void MovimientoManager::EditarMovimiento(){
+    int id;
+    float importeNuevo;
+
+    cout << "ID del registro a editar: ";
+    cin >> id;
+
+    int pos = _archivo.buscar(id);
+
+    if (pos < 0){
+        cout << "El registro no existe" << endl;
+        return;
+    }
+
+    Movimiento reg = _archivo.leer(pos);
+    MostrarEncabezado();
+    MostrarMovimiento(reg);
+
+    cout << endl << "Importe: $";
+    cin >> importeNuevo;
+
+    reg.setImporte(importeNuevo);
+
+    bool ok = _archivo.guardar(reg, pos);
+
+    if (ok){
+        cout << "Registro editado correctamente" << endl;
+    }
+    else{
+        cout << "No se pudo editar el registro" << endl;
+    }
+
+    return;
+}
+
+void MovimientoManager::EliminarMovimiento(){
+    int id;
+    cout << "ID del registro a editar: ";
+    cin >> id;
+
+    int pos = _archivo.buscar(id);
+
+    if (pos < 0){
+        cout << "El registro no existe" << endl;
+        return;
+    }
+
+    bool ok = _archivo.eliminar(pos);
+
+    if (ok){
+        cout << "Registro eliminado correctamente" << endl;
+    }
+    else{
+        cout << "No se pudo eliminar el registro" << endl;
+    }
+
+    return;
 }
 
 string MovimientoManager::PedirDescripcion(){
@@ -119,10 +178,20 @@ void MovimientoManager::ListarMovimientos(){
 
    for(int i = 0; i < cantidadRegistros; i++){
       Movimiento reg = _archivo.leer(i);
-      MostrarMovimiento(reg);
+      if (!reg.getActivo()){
+        cout << colors::bright_red;
+        MostrarMovimiento(reg);
+      }
+      else{
+        cout << colors::bright_green;
+        MostrarMovimiento(reg);
+      }
    }
 
-   cout << endl << "Total: " << cantidadRegistros << " movimientos." << endl;
+
+   cout << colors::reset << endl << "Total: " << colors::on_blue << colors::bright_white << cantidadRegistros << " movimientos." << colors::reset << endl << endl;
+   cout << "Los registros eliminados se listan en " << colors::bright_red << "rojo" << colors::reset;
+   cout << endl << endl;
 }
 
 void MovimientoManager::ListarMovimientoXId(){

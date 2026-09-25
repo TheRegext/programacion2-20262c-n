@@ -42,6 +42,7 @@
 		<Unit filename="MovimientoManager.h" />
 		<Unit filename="MovimientoMenu.cpp" />
 		<Unit filename="MovimientoMenu.h" />
+		<Unit filename="colors.hpp" />
 		<Unit filename="main.cpp" />
 		<Extensions />
 	</Project>

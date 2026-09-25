@@ -19,6 +19,26 @@ bool MovimientoArchivo::guardar(Movimiento reg){
     return ok;
 }
 
+bool MovimientoArchivo::guardar(Movimiento reg, int pos){
+    FILE *p;
+
+    p = fopen(_nombre.c_str(), "rb+");
+    if (p == NULL){
+        return false;
+    }
+    fseek(p, sizeof(Movimiento) * pos, SEEK_SET);
+    bool ok = fwrite(&reg, sizeof(Movimiento), 1, p);
+    fclose(p);
+    return ok;
+}
+
+bool MovimientoArchivo::eliminar(int pos){
+    Movimiento aux = leer(pos);
+    aux.setActivo(false);
+    bool ok = guardar(aux, pos);
+    return ok;
+}
+
 Movimiento MovimientoArchivo::leer(int pos){
     FILE *p;
     Movimiento reg;
