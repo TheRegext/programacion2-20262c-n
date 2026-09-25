@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-#include "colors.hpp"
+
 #include "MovimientoMenu.h"
 
 void MovimientoMenu::Mostrar(){
@@ -21,8 +21,8 @@ void MovimientoMenu::MostrarOpciones(){
    cout << "1. Nuevo movimiento" << endl;
    cout << "2. Listar movimientos" << endl;
    cout << "3. Buscar movimiento por id" << endl;
-   cout << "4. Editar movimiento" << endl;
-   cout << "5. Eliminar movimiento" << endl;
+   cout << "4. Listar movimientos por tipo" << endl;
+   cout << "5. Resumen de ingresos y gastos" << endl;
    cout << "0. Salir" << endl;
    cout << "Opcion: ";
 }
@@ -39,11 +39,9 @@ void MovimientoMenu::EjecutarOpcion(int opcion){
         _manager.ListarMovimientoXId();
          break;
       case 4:
-        _manager.EditarMovimiento();
 
          break;
       case 5:
-        _manager.EliminarMovimiento();
 
          break;
       case 0:
