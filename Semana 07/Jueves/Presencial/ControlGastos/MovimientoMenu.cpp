@@ -1,7 +1,7 @@
 #include <iostream>
-using namespace std;
 #include "colors.hpp"
 #include "MovimientoMenu.h"
+using namespace std;
 
 void MovimientoMenu::Mostrar(){
    int opcion;
