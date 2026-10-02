@@ -266,3 +266,116 @@ void MovimientoManager::MostrarMovimiento(Movimiento movimiento){
         << setw(32) << movimiento.getDescripcion()
         << right << setw(12) << fixed << setprecision(2) << movimiento.getImporte() << endl;
 }
+
+
+void MovimientoManager::PuntoA(){
+
+}
+
+
+void MovimientoManager::PuntoB(){
+ // 2- Para un año ingresado por teclado, listar el número del mes que registró el peor balance (mayor déficit).
+    float vectorSaldos[12] = {};
+
+    int anio, cantRegistros;
+    cout << "Ingresar el año para visualizar los gastos: ";
+    cin >> anio;
+
+    cantRegistros = _archivo.contarRegistros();
+
+    for(int i = 0; i < cantRegistros; i++){
+        Movimiento reg = _archivo.leer(i);
+
+
+
+        if (reg.getFecha().getAnio() == anio && reg.getActivo()){
+            int mes = reg.getFecha().getMes();
+            float importeNormalizado = reg.getImporte();
+
+            if (reg.getTipo() == 'G'){
+                importeNormalizado = importeNormalizado * -1;
+            }
+            vectorSaldos[mes - 1] += importeNormalizado;
+        }
+    }
+
+    float menorSaldo = vectorSaldos[0];
+    int mesMenorSaldo = 1;
+
+    for (int i = 1; i < 12; i++){
+        if (vectorSaldos[i] < menorSaldo){
+            menorSaldo = vectorSaldos[i];
+            mesMenorSaldo = i + 1;
+        }
+    }
+
+    cout << "El mes " << mesMenorSaldo << " tuvo el menor saldo. $ " << menorSaldo << endl;
+
+}
+
+void MovimientoManager::MostrarGastosPorMes(float *vectorGastos, string *nombres){
+    int i;
+    cout << "Mes\tTotal $$$" << endl;
+    for(i=0; i<12; i++){
+        cout << nombres[i] << "\t" << vectorGastos[i] << endl;
+    }
+    cout << endl << endl;
+
+}
+
+void MovimientoManager::OrdenarDatos(float *vectorGastos, string *nombres){
+
+    int i, j, posMax;
+
+
+    for(i = 0; i < 11; i++){
+        posMax = i;
+
+        for (j = i + 1; j < 12; j++){
+            if (vectorGastos[j] > vectorGastos[posMax]){
+               posMax = j;
+            }
+        }
+
+        float aux = vectorGastos[i];
+        string nombreAux = nombres[i];
+        vectorGastos[i] = vectorGastos[posMax];
+        nombres[i] = nombres[posMax];
+        vectorGastos[posMax] = aux;
+        nombres[posMax] = nombreAux;
+    }
+}
+
+
+void MovimientoManager::PuntoC(){
+    float vectorGastos[12] = {};
+    string nombres[12] = {"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Sept", "Oct", "Nov", "Dic"};
+
+    int anio, cantRegistros;
+    cout << "Ingresar el año para visualizar los gastos: ";
+    cin >> anio;
+
+    cantRegistros = _archivo.contarRegistros();
+
+    for(int i = 0; i < cantRegistros; i++){
+        Movimiento reg = _archivo.leer(i);
+
+        if (reg.getTipo() == 'G' && reg.getFecha().getAnio() == anio && reg.getActivo()){
+            int mes = reg.getFecha().getMes();
+            vectorGastos[mes - 1] += reg.getImporte();
+        }
+    }
+    OrdenarDatos(vectorGastos, nombres);
+    MostrarGastosPorMes(vectorGastos, nombres);
+
+
+
+
+
+
+
+
+
+
+}
+

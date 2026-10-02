@@ -109,10 +109,11 @@
 	"MovimientoMenu.h"
 	"MovimientoManager.h"
 
-1790888312 /home/angel/UTN/programacion2-20262c-n/Semana 08/Jueves/Presencial/ControlGastos/MovimientoMenu.h
+1790897298 /home/angel/UTN/programacion2-20262c-n/Semana 08/Jueves/Presencial/ControlGastos/MovimientoMenu.h
 	"MovimientoManager.h"
+	"ModeloExamen.h"
 
-1790888312 /home/angel/UTN/programacion2-20262c-n/Semana 08/Jueves/Presencial/ControlGastos/MovimientoManager.h
+1790899655 /home/angel/UTN/programacion2-20262c-n/Semana 08/Jueves/Presencial/ControlGastos/MovimientoManager.h
 	<string>
 	"Movimiento.h"
 	"MovimientoArchivo.h"
@@ -129,18 +130,27 @@
 	<cstring>
 	"Movimiento.h"
 
-1790888312 source:/home/angel/UTN/programacion2-20262c-n/Semana 08/Jueves/Presencial/ControlGastos/MovimientoMenu.cpp
+1790897298 source:/home/angel/UTN/programacion2-20262c-n/Semana 08/Jueves/Presencial/ControlGastos/MovimientoMenu.cpp
 	<iostream>
 	"colors.hpp"
 	"MovimientoMenu.h"
+	"ModeloExamen.h"
 
 1790888312 /home/angel/UTN/programacion2-20262c-n/Semana 08/Jueves/Presencial/ControlGastos/colors.hpp
 	<iostream>
 	<Windows.h>
 
-1790888578 source:/home/angel/UTN/programacion2-20262c-n/Semana 08/Jueves/Presencial/ControlGastos/MovimientoManager.cpp
+1790897324 source:/home/angel/UTN/programacion2-20262c-n/Semana 08/Jueves/Presencial/ControlGastos/MovimientoManager.cpp
 	<iostream>
 	<iomanip>
 	"MovimientoManager.h"
 	"colors.hpp"
+
+1790888641 source:/home/angel/UTN/programacion2-20262c-n/Semana 08/Jueves/Presencial/ControlGastos/MovimientoArchivo.cpp
+	"MovimientoArchivo.h"
+	<string>
+	<cstdio>
+
+1790897298 /home/angel/UTN/programacion2-20262c-n/Semana 08/Jueves/Presencial/ControlGastos/ModeloExamen.h
+	"MovimientoArchivo.h"
 
