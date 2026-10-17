@@ -1,7 +1,8 @@
 #include <iostream>
-using namespace std;
 #include "colors.hpp"
 #include "MovimientoMenu.h"
+#include "ModeloExamen.h"
+using namespace std;
 
 void MovimientoMenu::Mostrar(){
    int opcion;
@@ -23,6 +24,9 @@ void MovimientoMenu::MostrarOpciones(){
    cout << "3. Buscar movimiento por id" << endl;
    cout << "4. Editar movimiento" << endl;
    cout << "5. Eliminar movimiento" << endl;
+   cout << "6. Modelo de Examen - Punto A" << endl;
+   cout << "7. Modelo de Examen - Punto B" << endl;
+   cout << "8. Modelo de Examen - Punto C" << endl;
    cout << "0. Salir" << endl;
    cout << "Opcion: ";
 }
@@ -44,8 +48,20 @@ void MovimientoMenu::EjecutarOpcion(int opcion){
          break;
       case 5:
         _manager.EliminarMovimiento();
-
          break;
+
+        case 6:
+        _manager.PuntoA();
+        break;
+
+        case 7:
+        _manager.PuntoB();
+        break;
+
+        case 8:
+        _manager.PuntoC();
+        break;
+
       case 0:
          cout << "Saliendo del programa..." << endl;
          break;

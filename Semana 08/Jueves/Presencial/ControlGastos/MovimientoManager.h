@@ -12,10 +12,15 @@ public:
    void ListarMovimientoXId();
    void ListarMovimientosXTipo();
    void MostrarResumen();
+   void PuntoA();
+   void PuntoB();
+   void PuntoC();
 
 private:
    MovimientoArchivo _archivo;
 
+   void OrdenarDatos(float *vectorGastos, std::string *nombres);
+   void MostrarGastosPorMes(float *vectorGastos, std::string *nombres);
    Movimiento CargarMovimiento(int idMovimiento);
    bool ExisteId(int idMovimiento);
    std::string PedirDescripcion();
